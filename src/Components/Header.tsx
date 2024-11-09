@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
-import { FaCloudDownloadAlt } from "react-icons/fa";
+// import { FaCloudDownloadAlt } from "react-icons/fa";
 
 export default function Header() {
   return (
@@ -25,7 +25,7 @@ export default function Header() {
   
     <button className="font-semibold inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-cyan-800 hover:text-gray-100 rounded text-cyan-800 mt-4 md:mt-0">
       Download CV
-      <FaCloudDownloadAlt className='m-2 '/>
+      {/* <FaCloudDownloadAlt className='m-2 '/> */}
     </button>
   </div>
 </header>
