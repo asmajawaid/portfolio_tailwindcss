@@ -14,7 +14,7 @@ export default function Header() {
      
       <span className="ml-3 text-xl font-bold">ASMA</span>
     </Link>
-    <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-evenly p-4">
+    <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-evenly p-4 mx-2">
       <Link href="/" className="mr-5 hover:text-black font-semibold text-cyan-50">Home</Link>
       <Link href="/about" className="mr-5 hover:text-black font-semibold text-cyan-50">About</Link>
       <Link href="/portfolio" className="mr-5 hover:text-black font-semibold text-cyan-50">portfolio</Link>
