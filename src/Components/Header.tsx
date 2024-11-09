@@ -10,7 +10,7 @@ export default function Header() {
   <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row sm:flex-col items-center">
     <Link href="/" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
       
-      <Image src="/images/asma.png" height={50} width={50} alt="logo" className='w-10 h-10'/>
+      <Image src="/images/asma.png" height={50} width={50} alt="logo" className='w-10 h-10 gap-5'/>
      
       <span className="ml-3 text-xl font-bold">ASMA</span>
     </Link>
