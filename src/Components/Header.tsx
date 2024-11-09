@@ -22,11 +22,11 @@ export default function Header() {
       <Link href="/services" className="mr-5 hover:text-black font-semibold text-cyan-50">Services</Link>
       <Link href="/contact" className="mr-5 hover:text-black font-semibold text-cyan-50">Contact</Link>
     </nav>
-  
+     <Link href="">
     <button className="font-semibold inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-cyan-800 hover:text-gray-100 rounded text-cyan-800 mt-4 md:mt-0">
       Download CV
       {/* <FaCloudDownloadAlt className='m-2 '/> */}
-    </button>
+    </button> </Link>
   </div>
 </header>
 
