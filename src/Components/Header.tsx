@@ -13,7 +13,8 @@ export default function Header() {
       <Image src="/images/asma.png" height={50} width={50} alt="logo" className='w-10 h-10'/>
      
       <span className="ml-3 text-xl font-bold">ASMA</span>
-    </Link></div>
+    </Link>
+    </div>
 
     <div>
     <ul className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-evenly p-4 mx-2">
@@ -30,7 +31,10 @@ export default function Header() {
      <Link href="">
     <button className="font-semibold inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-cyan-800 hover:text-gray-100 rounded text-cyan-800 mt-4 md:mt-0">
       Download CV
-    </button> </Link></div>
+    </button> 
+    </Link>
+    </div>
+
   </div>
 </header>
 
