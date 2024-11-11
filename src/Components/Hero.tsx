@@ -10,7 +10,7 @@ export default function Hero() {
       <section className=" body-font">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-2xl text-3xl mb-4 font-medium text-cyan-500">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-cyan-500">
               Hi! My Name Is Asma Jawaid
               <br className="hidden lg:inline-block" />
               I Am
@@ -23,7 +23,7 @@ export default function Hero() {
               />
             </h1>
             {/* for horizontal line */}
-            <div className="w-[100px] h-[2px] bg-cyan-950"></div> 
+            <div className="w-[100px] h-[2px] bg-cyan-500"></div> 
 
             <p className="mb-8 leading-relaxed md:text-sm text-gray-600">
               I specialize in creating responsive, user-friendly websites that
