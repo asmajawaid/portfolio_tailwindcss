@@ -17,13 +17,13 @@ export default function Header() {
     </div>
 
     <div>
-    <ul className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-evenly p-4 mx-2">
-      <Link href="/" className="mr-5 hover:text-black font-semibold text-cyan-50"><li>Home</li></Link>
-      <Link href="/about" className="mr-5 hover:text-black font-semibold text-cyan-50"><li>About</li></Link>
-      <Link href="/portfolio" className="mr-5 hover:text-black font-semibold text-cyan-50"><li>portfolio</li></Link>
-      <Link href="/blog" className="mr-5 hover:text-black font-semibold text-cyan-50"><li>Blog</li></Link>
-      <Link href="/services" className="mr-5 hover:text-black font-semibold text-cyan-50"><li>Services</li></Link>
-      <Link href="/contact" className="mr-5 hover:text-black font-semibold text-cyan-50"><li>Contact</li></Link>
+    <ul className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-evenly p-4 mx-2 list-none">
+      <Link href="/" className="p-5 mr-5 hover:text-black font-semibold text-cyan-50"><li>Home</li></Link>
+      <Link href="/about" className="p-4 mr-5 hover:text-black font-semibold text-cyan-50"><li>About</li></Link>
+      <Link href="/portfolio" className="p-5 mr-5 hover:text-black font-semibold text-cyan-50"><li>portfolio</li></Link>
+      <Link href="/blog" className="p-5 mr-5 hover:text-black font-semibold text-cyan-50"><li>Blog</li></Link>
+      <Link href="/services" className="p-5 mr-5 hover:text-black font-semibold text-cyan-50"><li>Services</li></Link>
+      <Link href="/contact" className="p-5 mr-5 hover:text-black font-semibold text-cyan-50"><li>Contact</li></Link>
     </ul>
     </div>
      
