@@ -11,7 +11,7 @@ export default function Footer() {
     <div className="bg-cyan-800">
       <footer className="text-gray-900 body-font">
         <div className="container px-5 py-8 mx-auto flex items-center flex-row">
-          <div className="flex flex-1 items-center">
+          <div className="flex items-center">
           <Link
             href="/"
             className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
@@ -36,7 +36,7 @@ export default function Footer() {
               @AsmaJawaid
             </Link>
           </p></div>
-          <div className="flex flex-1 gap-1">
+          <div className="flex gap-1">
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start ">
             <Link
               target="_blank"
