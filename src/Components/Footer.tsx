@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaFacebook } from "react-icons/fa";
@@ -12,7 +12,7 @@ export default function Footer() {
       <footer className="text-gray-900 body-font">
         <div className="container px-5 py-8 mx-auto flex items-center flex-row">
           <div className="flex items-center">
-          <Link
+          {/* <Link
             href="/"
             className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
           >
@@ -24,7 +24,7 @@ export default function Footer() {
               className="w-25 h-20"
             />
             <span className="ml-3 text-xl">ASMA</span>
-          </Link>
+          </Link> */}
           <p className="text-sm text-gray-900 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
             © 2020 ASMA —
             <Link
